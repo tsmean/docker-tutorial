@@ -2,8 +2,10 @@ version: '3'
 
 services:
   hello:
-    volumes:
-      - ./:/app
     working_dir: /app
     build: .
     command: node hello-world.js
+    ports:
+      - 3000:3000
+    deploy:
+      replicas: 5
