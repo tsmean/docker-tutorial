@@ -11,7 +11,7 @@ This is the code repository for the Docker tutorial series. It has the following
 - 3_docker-services
 - 4_docker-swarm-and-stack
 
-All of those folders are independently runnable.
+All of those folders are independently runnable and have their own README's.
 
 Now... have fun with docker!
 
