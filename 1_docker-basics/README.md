@@ -1,6 +1,6 @@
 # Docker Basics Tutorial
 
-Watch the tutorial: https://www.youtube.com/watch?v=gSdm1ghBYJ4
+Watch the tutorial: https://youtu.be/gSdm1ghBYJ4
 
 To run the build locally, install docker on your machine and then run
 
