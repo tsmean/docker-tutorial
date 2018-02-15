@@ -6,10 +6,10 @@ Watch the Docker series @ https://www.youtube.com/watch?v=gSdm1ghBYJ4&list=PLElS
 
 This is the code repository for the Docker tutorial series. It has the following contents:
 
-- 1_docker-basics
-- 2_docker-compose
-- 3_docker-services
-- 4_docker-swarm-and-stack
+1. Docker Basics
+2. docker-compose
+3. Docker Services
+4. Docker Swarm and Docker Stack
 
 All of those folders are independently runnable and have their own README's.
 
