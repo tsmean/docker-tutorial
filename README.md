@@ -15,4 +15,4 @@ All of those folders are independently runnable.
 
 Now... have fun with docker!
 
-https://marketplace.visualstudio.com/items?itemName=formulahendry.docker-explorer
+![Docker Image](https://formulahendry.gallerycdn.vsassets.io/extensions/formulahendry/docker-explorer/0.1.6/1508641602703/Microsoft.VisualStudio.Services.Icons.Default)
