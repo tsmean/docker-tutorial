@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "start": "node goodbye-world.js"
+  },
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}

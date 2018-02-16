@@ -1,0 +1,24 @@
+version: '3'
+
+services:
+  hello:
+    image: hello
+    deploy:
+      replicas: 3
+    ports:
+      - 3000:3000
+  goodbye:
+    image: goodbye
+    deploy:
+      replicas: 2
+    ports:
+      - 3001:3000
+  visualizer:
+    image: dockersamples/visualizer
+    deploy:
+      placement:
+        constraints: [node.role == manager]
+    ports:
+      - 8080:8080
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro
